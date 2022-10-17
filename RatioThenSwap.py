@@ -1,0 +1,10 @@
+a=float(input("A="))
+b=float(input("B="))
+ratio=int(a/b)
+print("ratio=",ratio)
+if(ratio>0):
+    a=a+b
+    b=a-b
+    a=a-b
+    print("a=",a)
+    print("b=",b)

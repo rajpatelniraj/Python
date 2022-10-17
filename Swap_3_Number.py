@@ -1,0 +1,7 @@
+x=int(input("x="))
+y=int(input("y="))
+z=int(input("z="))
+(x,y,z)=(y,z,x)
+print("x=",x)
+print("y=",y)
+print("z=",z)
